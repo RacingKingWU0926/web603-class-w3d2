@@ -41,3 +41,18 @@ and has `"json-server"` and `"dev"` added by you based on the instruction.
     "dev": "concurrently \"npm start\" \"npm run json-server\""
   }
 ```
+
+## Output
+Start the app by running
+```bash
+$ npm run dev
+```
+in the application root `crud-json-server/`.
+
+After the webpack has been compiled successfully, you should be able to see this as the homepage:
+
+![app-home](screenshots/app-home.png)
+
+Click the button "Get Lists", you should be able to see data.
+
+![app-get-lists](screenshots/app-get-lists.png)
