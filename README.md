@@ -7,14 +7,21 @@ Run
 ```bash
 $ npx create-react-app crud-json-server
 ```
+to create the application with root `crud-json-server/`.
 
-### Step 2: Install Dependencies and Check Configs
-Run
+### Step 2: Install Dependencies and 
+Inside `crud-json-serve` (do `cd crud-json-server/` if needed), install `json-server` and `concurrently` by
 ```bash
 $ npm i -D json-server concurrently
 ```
 
-And then make sure that `crud-json-server/package.json` contains
+And then install Bootstrap (for styling) by
+```bash
+$ npm install bootstrap
+```
+
+### Step 3: Check Configs
+Make sure that `crud-json-server/package.json` contains
 ```json
   "devDependencies": {
     "concurrently": "^8.2.2",
